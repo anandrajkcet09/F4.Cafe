@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F4</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+     <div id="nav">
+
+      <div id="logo"><img src="f4.png"alt height="70px"></div> 
+      <div id="addr">
+      <ul id="list1">
+        <label style="color: rgb(0, 0, 0); font-family: sans-serif; font-size: xx-large;">PUNJAB</label>
+          <select style="color: black; font-size:medium;">
+            <option>Select City</option>
+            <option>Amritsar</option>
+            <option>Ludhiana</option>
+            <option>Kapurthala</option> 
+            
+          
+         </select>
+          
+          
+      </ul>
+    </div>
+
+    <div id="list2">
+      <ul id="ulid">
+        <li id="me"><a href="Menu.html">Menu</a></li>
+        <li id="of"><a href="offer.html">Offer</a></li>
+        <li id="he"><a href="help.html">Help</a></li>
+        <li id="pr"><a href="profile.html">Anand</a></li>
+        <li id="ca"><a href="contact.html">Contact Us</a></li>
+        <li id="si"><a href="LoginPage.html">Log In</a></li>
+        
+      </ul>
+    </div>
+     </div>
+     
+    </header>
+    
+    
+    <main>
+      
+       <div id="first_item">
+
+        <div class="text_bold1">
+          <p class="text_bold" >What's on your mind?</p>
+        </div>
+
+        <div class="food1">
+        <a href="Menu.html"><img src="Pizza.png" width="115" height="150" alt></a>
+        <a href="Menu.html"><img src="Biryani_2.png" width="115" height="150"  alt></a>
+        <a href="Menu.html"><img src="Shawarma.png"  width="115" height="150" alt></a>
+        <a href="Menu.html"><img src="Kachori.png"  width="115" height="150" alt></a>
+        <a href="Menu.html"><img src="Burger.png" width="115" height="150"  alt></a>
+        <a href="Menu.html"><img src="Rolls.png" width="115" height="150" alt></a>
+        <a href="Menu.html"><img src="Chinese.png"  width="115" height="150"  alt></a>
+        </div>
+        <div class="food1a">
+          <a href="Menu.html"><img src="Pakoda.png" width="115" height="150" alt></a>
+        <a href="Menu.html"><img src="Patty.png" width="115" height="150"  alt></a>
+        <a href="Menu.html"><img src="Momo.png"  width="115" height="150" alt></a>
+        <a href="Menu.html"><img src="Cake.png"  width="115" height="150" alt></a>
+        <a href="Menu.html"><img src="Lassi.png" width="115" height="150"  alt></a>
+        <a href="Menu.html"><img src="Pav Bhaji.png" width="115" height="150" alt></a>
+          <a href="Menu.html"><img src="Noodles.png"  width="115" height="150"  alt></a>
+        </div>
+        <div class="text_bold1">
+          <p class="text_bold">Combo food in our Restaurants</p>
+        </div>
+    </div>
+      <div id="second_item">
+        <div class="food2">
+
+          <div class="hotel">
+            <img class="onef" src="69a061b7e0f951cef2b4947946f94ec6.jpeg" alt>
+            <p class="addressh">The Vougue 4.4 •31 mins</p>
+              <img class="greenlogo" src="star-512.png" alt>
+            <p class="fooditemh">Mediterranean, Biryani ,Santhi Nagar</p>
+              <p><h3><b>Price: Rs 100</b></h3></p>
+              <button onclick="addToCart('The Vougue 1', 100)">Add to Cart</button>
+              
+          </div>
+        <div class="hotel">
+          <img class="onef" src="8e7a7b397bedfd0c2f040d20c2e75968.jpeg" alt>
+          <p  class="addressh">Lavonne
+            4.5 •21 mins </p>
+            <img class="greenlogo" src="star-512.png" alt>
+          <p class="fooditemh">Bakery, Desserts, Sweets, Drinks , St. Marks Road</p>
+              <p><h3><b>Price: Rs 200</b></h3></p>
+              <button onclick="addToCart('Product 2', 200)">Add to Cart</button>
+        </div>
+
+        <div class="hotel">
+          <img class="onef" src="b2edbc28b7b8219d6e0a9c049ce06658.jpeg" alt>
+          <p  class="addressh">Burger King
+            4.1 •30 mins</p></p>
+            <img class="greenlogo" src="star-512.png" alt>
+          <p class="fooditemh">Burgers, American Food ,<br>Shivaji Nagar</p>
+            <p><h3><b>Price: Rs 150</b></h3></p>
+            <button onclick="addToCart('Product 3', 150)">Add to Cart</button>
+        </div>
+        <div class="hotel">
+          <img class="twof" src="05994df0e49725bd230146c320b8f7aa.jpeg" alt>
+          <p class="addressh">Ramu bakery 
+            4.2 •32 mins</p><img class="greenlogo" src="star-512.png" alt>
+          <p class="fooditemh">Biryani, Mughlai, Arabian ,<br>Frazer Town</p>
+            <p><h3><b>Price: Rs 180</b></h3></p>
+            <button onclick="addToCart('Product 4', 180)">Add to Cart</button>
+          </div>
+      </div>
+
+      </div>
+      
+      <div class="container">
+        <h1>Shopping Cart</h1>
+        <div id="cart"></div>
+        <h2>Total: Rs <span id="total">0</span></h2>
+        <button onclick="checkout()">Checkout</button>
+    </div>
+  </div>
+
+    </main>
+    <script src="script.js"></script>
+    <footer>
+     
+    <div id="darkblue">
+     
+      <div class="horizero">
+       <p id="swgname">F4</p>
+       
+       <pre class="endelex">&copy; 2025 Anand Technologies Pvt.Ltd 
+        <br>Room no.12 - Hostal 2A </br>
+      </pre>
+      <div id="D2">
+      
+      <img class="D1" src="facebook.png" alt>
+      <img class="D1" src="social.png" alt>
+      <img class="D1" src="twitter.png" alt>
+      <img class="D1" src="linkedin.png" alt>
+      </div>
+    </div>
+
+    <div class="horifirst">
+      <p class="endmele">Company</p>
+      <li class="endele">
+        <ul>
+          <li>About</li><br><br>
+          <li>Careers</li><br><br>
+          <li>Team</li><br><br>
+          <li>F4 One</li><br><br>
+          <li>F4 Instamart</li><br><br>
+          <li>F4 Genie</li><br><br>
+        </ul>
+      </li>
+    </div>
+
+    <div class="horisec">
+      <p class="endmele">Contact us</p>
+      <li class="endele">
+        <ul>
+          <li>Help & Support</li><br><br>
+          <li>Partner with us</li><br><br>
+          <li>Ride with us</li><br><br>
+        </ul>
+      </li>
+    </div>
+      <div class="horisec">
+      <p class="endmele">Legal</p>
+      <li class="endele">
+        <ul>
+          <li>Terms & Conditions</li><br><br>
+          <li>Cookie Policy</li><br><br>
+          <li>Privacy Policy</li><br><br>
+        </ul>
+      </li>
+    </div>
+
+    <div class="horithd">
+      <p class="endmele">We deliver to:</p>
+      <li class="endele">
+        <ul>
+          <li>Amritsar</li><br><br>
+          <li>Banglore</li><br><br>
+          <li>Gurgaon</li><br><br>
+          <li>Hyderabad</li><br><br>
+          <li>Delhi</li><br><br>
+          <li>Mumbai</li><br><br>
+          <li>Pune</li><br><br>
+        </ul>
+      </li>
+    </div>
+
+    
+
+    </div>
+
+    <div id="ffooterel">
+      <p class="appe">For better experience,download<br>the F4 app now</p>
+      <img class="playsto" src="play_store.png" alt height="50px" width="100px">
+      <img class="playsto" src="app_store.png" alt height="50px" width="100px">
+      </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 248, 154);
+   
+    overflow-x: hidden;
+}
+#nav{
+   
+    height: 15vh;
+    width: 100%;
+    background-color:rgb(254, 254, 212);
+    margin:0;
+    padding: 0;
+    display: inline-flex;
+    flex-direction: row;
+}
+#logo{
+    margin-top: 8px;
+    margin-left: 4vw;
+    
+    
+}
+#addr{
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin-top: 0px;
+    margin-left: 0vw;
+    color: black;
+    
+}
+
+li{ 
+    list-style: none;
+    display: inline;
+
+    
+}
+a{
+    text-decoration: none; 
+    color: black;
+    
+}
+a:hover{
+    color: rgb(251, 99, 4);
+    
+}
+
+#ulid{
+    display: inline-flex;
+    flex-direction: row;
+    width: 800px;
+    padding-left: 18vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+   
+
+}
+#me{
+    padding-top: 7px;
+    position: relative;
+    right: 6vw;
+    list-style-image: url("Swiggy-emblem-500x281.png");
+}
+#of{
+    padding-left:1vh;
+    padding-top: 7px;
+}
+#he{
+    padding-left:4vw;
+    padding-top: 7px;
+}
+#pr{
+    padding-left:4vw;
+    padding-top: 7px;
+}
+#si{
+    padding-left:4vw;
+    padding-top: 7px;
+}
+#ca{
+    padding-left:4vw;
+    padding-top: 7px;
+}
+
+.food1{
+    display: flex;
+    height: 25vh;
+    margin-left:4vw;
+    margin-top: 0dp;
+    gap: 15px;
+}
+.food1a{
+    display: flex;
+    height: 25vh;
+    margin-left:4vw;
+    margin-top: 2vh;
+    gap: 18px;
+}
+.food1:hover{
+cursor: pointer;
+}
+.text_bold{
+    font-family: 'Poppins', sans-serif;
+    margin-left:5vw;
+    font-weight: bolder;
+    font-size: 3vw;
+    margin-top: 0dp;
+   
+}
+#first_item{
+    display:inline-block;
+    padding: 0vh;
+    
+    margin-left: 8vw;
+    filter: brightness(98%);
+    margin-top: 0dp;
+
+}
+#second_item{
+    display:inline-block;
+    padding: 0vh;
+   
+    margin-left: 2vw;
+    margin-bottom: 16vh;
+    filter: brightness(98%);
+   
+}
+.food2{
+    display: flex;
+    height: 25vh;
+    margin-left:4vw;
+    padding-top: 5vh;
+    gap: 50px ;
+}
+.onef{
+    height: 130px;
+    width: 255px;
+    border-radius: 10px;
+}
+
+.twof{
+    height: 130px;
+    width: 255px;   
+    border-radius: 10px;
+}
+
+.food2:hover{
+    cursor: pointer;
+}
+.hotel{
+    
+    height: 180px;
+    width: 235px;  
+}
+.addressh{
+    font-family: 'Arial Black', Gadget, sans-serif; /* Example of a naturally bold font */
+    font-weight: 1;
+}
+.fooditemh{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    
+}
+.greenlogo{
+    height: 25px;
+    height: 25px;
+    float: left;
+}
+#ffooterel{
+    background-color: rgb(18, 1, 58);
+    height: 15vh;
+    width: 100%;
+    margin-top: 0vh;
+    margin-left: 0vw; 
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+.appe{
+    font-family: 'Arial Black', Gadget, sans-serif; /* Example of a naturally bold font */
+    font-weight: 1;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.927);
+    margin-left: 20px;
+    position:relative;
+    bottom: 18px;
+}
+.playsto{
+    height: 9vh;
+    margin-top: 6px;
+    margin-left: 30px;
+    margin-right: auto;
+    position: relative;
+
+}
+.playsto:hover{
+    cursor: pointer;
+}
+#darkblue{
+  height: 30vw;  
+  width: 100%;
+  background-color: rgb(1, 2, 58);
+  position:relative;
+  bottom: 3px;
+  margin-bottom: 0px;
+  margin-top: 13vh;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: ;
+}
+
+.endele{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 8vh;
+    
+}
+.endele:hover{
+    cursor: pointer;
+}
+.endelex{
+    color: white;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 35vh;
+    
+}
+.endmele{
+    color: white;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-weight: bolder;
+    margin-left: 5vh;
+    position: relative;
+    top: 7vh;
+    
+}
+.horizero{
+    margin-left: -10vw; 
+    margin-top: 5vh; 
+}
+.horifirst{
+    margin-left: 20vw;
+    
+}
+.horisec{
+    margin-left: 7vw;
+}
+.horithd{
+    margin-left: 5vw;
+}
+
+#swgname{
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-weight: bolder;  
+    font-size: 3vh;
+    color: white;
+    position: relative;
+    left: 35vh;
+}
+
+#D2{
+    
+    height: 5vh;
+    width: 100%;
+    margin-top: 2vh;
+    margin-left: 4vw; 
+    display: flex;
+    gap: 12px;
+}
+.D1{
+    position: relative;
+    left: 25vh;
+    size: 8px 4px;
+
+}
+#D3{
+    
+    height: 5vh;
+    width: 4vb;
+    margin-top: 2vh;
+    margin-left: 4vw; 
+    display: flex;
+    gap: 1px;
+}

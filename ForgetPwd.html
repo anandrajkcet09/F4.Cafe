@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ForgetPwd</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Pwd-Check {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="Home"] {
+    background-color: #13b2f7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+</style>
+<body>
+     
+    <div class="container">
+        <div class="submit-form">
+            <h2>ForgetPwd</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username"  placeholder="Enter your username" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+                <label>Enter OTP:</label>
+                <input type="otp" id="otp" name="otp" placeholder="Enter OTP" required><br><br>
+                <label>Your new password</label>
+                <input type="password" id="pwd" placeholder="Enter New password" required><br><br>
+                <label>Confirm new password</label>
+                <input type="password" id="cpwd" placeholder="Enter New password" required><br><br>
+               
+                <input type="Submit" value="Submit" onclick="vallidate()" value="submit"> 
+            </button>
+                <div>
+                <br>
+                        <a href="F4.html"><input type="Home" value="Home Page">
+                        </button>
+                    </a>
+                </br>
+                </div>
+            </form>
+            
+        </div>
+        
+    </div>
+    <script>
+      
+        
+        function vallidate()
+       { 
+        var password=document.getElementById("pwd").value;
+        var conf_password=document.getElementById("cpwd").value;
+            if
+            (password!=conf_password)
+            {
+                alert("password does not match");
+        }
+        
+          else {
+            alert("submit successfully")
+        }
+    }
+    </script>
+
+    
+</body>
+</html>
